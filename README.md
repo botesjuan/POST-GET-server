@@ -7,3 +7,9 @@ Python3 HTTP server to get log POST and GET requests
 python3 server3.py
 ```  
   
+>Embedding a tracking pixel in phishing email can provide additional information about victim targeted.  
+
+```html
+  <img src='http://evil-target.net/tracking.jpg' width='1px' height='1px'/>  
+```   
+
