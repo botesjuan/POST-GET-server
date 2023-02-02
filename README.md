@@ -4,7 +4,7 @@ Python3 HTTP server to get log POST and GET requests
 >Place index.html file in folder where the Python server will be started.  
 
 ```bash
-python3 server3.py
+python3 server5.5.py
 ```  
   
 >Embedding a tracking pixel in phishing email can provide additional information about victim targeted.  
@@ -26,3 +26,5 @@ curl -X POST -H "Content-Type: application/json" -d '{"json":"value","message1":
 ```bash
 curl http://localhost:8000
 ```  
+
+![log](log.png)  
