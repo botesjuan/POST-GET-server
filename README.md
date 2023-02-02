@@ -13,3 +13,16 @@ python3 server3.py
   <img src='http://evil-target.net/tracking.jpg' width='1px' height='1px'/>  
 ```   
 
+>Sample Curl commands to test the Python HTTP server logging requests:  
+
+```bash
+curl -X PUT -H "Content-Type: application/json" -d '{"json":"value","message1": "2Hello 3from 4curl"}' http://localhost:8000
+```  
+
+```bash
+curl -X POST -H "Content-Type: application/json" -d '{"json":"value","message1": "2Hello 3from 4curl"}' http://localhost:8000
+```  
+
+```bash
+curl http://localhost:8000
+```  
